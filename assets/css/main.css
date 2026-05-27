@@ -729,6 +729,31 @@ section,
   margin-bottom: 20px;
 }
 
+.resume .download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #2563eb 0%, #4f86ff 100%);
+  color: #ffffff;
+  padding: 14px 24px;
+  text-decoration: none;
+  border-radius: 999px;
+  font-family: var(--default-font);
+  font-weight: 700;
+  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.18);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+}
+
+.resume .download-btn i {
+  font-size: 18px;
+}
+
+.resume .download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.22);
+  opacity: 0.98;
+}
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
